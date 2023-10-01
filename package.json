@@ -1,0 +1,25 @@
+{
+  "name": "graphql-banking-gateway",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "tsx watch src/server.ts",
+    "start": "tsx src/server.ts",
+    "token": "tsx scripts/token.ts",
+    "test": "vitest run",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "dataloader": "^2.2.3",
+    "graphql": "^16.14.2",
+    "graphql-yoga": "^5.24.1",
+    "jose": "^6.2.12"
+  },
+  "devDependencies": {
+    "@types/node": "^26.6.3",
+    "tsx": "^4.23.15",
+    "typescript": "^6.0.3",
+    "vitest": "^5.0.2"
+  }
+}
